@@ -1,0 +1,377 @@
+<?xml version="1.0"?>
+<!-- TCP Fingerprints database                                                              -->
+<!-- This file has been created with ConTEXT (http://www.fixedsys.com/context/)         -->
+<!--                                                                                    -->
+<!-- Terms of use of info provided herein:                                              -->
+<!-- Give credit where credit is due, you want to use the info provided here, give me   -->
+<!-- and my program credit somewhere in your documentation, with a link to my website   -->
+<!-- Also, drop me an email and let me know you are going to use it                     -->
+<!--                                                                                    -->
+<TCP created="August 21, 2005" last_updated="October 20, 2008" author="xnih@cableone.net">
+	<fingerprints>
+	 <fingerprint os="Windows Vista" os_class="Windows" os_url="http://www.microsoft.com" os_icon="win.gif" comments="" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="8192:128:1:48:M1460,N,N,S:A"/>
+			 <test weight="5" type="exact" flag="S" tcpsig="65535:128:1:48:M1460,N,N,S:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="8192:128:1:52:M1460,N,W2,N,N,S:Z"/>
+			 <test weight="5" type="exact" flag="S" tcpsig="8192:128:1:52:M1460,N,W2,N,N,S:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="8192:128:1:48:M1460,N,N,S:."/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="Windows 2003" os_class="Windows" os_url="http://www.microsoft.com" os_icon="win.gif" comments="" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="65535:128:1:48:M1460,N,N,S:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="64240:128:0:52:M1460,N,W0,N,N,S:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="64240:128:0:48:M1460,N,N,S:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="64240:128:0:64:M1460,N,W0,N,N,T0,N,N,S:AT"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="64240:128:0:44:M1380:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="17520:128:1:48:M1460,N,N,S:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="16384:128:1:48:M1460,N,N,S:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="16384:128:0:48:M1460,N,N,S:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="16384:128:0:52:M1460,N,W0,N,N,S:A"/>
+			 <test weight="5" type="partial" flag="S" tcpsig="65535:128:*:48:M1460,N,N,S:."/>
+			 <test weight="5" type="partial" flag="S" tcpsig="64240:128:*:48:M1460,N,N,S:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="16384:128:1:48:M1460,N,N,S:."/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="Windows XP" os_class="Windows" os_url="http://www.microsoft.com" os_icon="win.gif" comments="" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="65535:128:1:48:M1460,N,N,S:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="65535:128:1:48:M1260,N,N,S:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="64240:128:1:48:M1460,N,N,S:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="17520:128:1:48:M1460,N,N,S:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="17640:128:1:48:M1460,N,N,S:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="65535:128:1:48:M1260,N,N,S:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="65535:128:1:44:M1260:A"/>
+			 <test weight="5" type="exact" flag="S" tcpsig="65535:128:1:48:M1460,N,N,S:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="65535:128:1:48:M1260,N,N,S:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="64512:128:1:48:M1460,N,N,S:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="64240:128:1:48:M1460,N,N,S:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="16384:128:1:48:M1460,N,N,S:."/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="Windows 2000" os_class="Windows" os_url="http://www.microsoft.com" os_icon="win.gif" comments="" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="65535:128:1:44:M1460:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="64240:128:1:48:M1460,N,N,S:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="17640:128:1:48:M1460,N,N,S:A"/>
+			 <test weight="5" type="partial" flag="SA" tcpsig="17520:128:*:48:M1460,N,N,S:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="17520:128:1:64:M1460,N,W0,N,N,T0,N,N,S:AT"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="17520:128:1:44:M1460:A"/>
+			 <test weight="5" type="exact" flag="S" tcpsig="65535:128:1:48:M1460,N,N,S:."/>
+			 <test weight="5" type="partial" flag="S" tcpsig="64240:128:*:48:M1460,N,N,S:."/>
+			 <test weight="5" type="partial" flag="S" tcpsig="16384:128:*:48:M1460,N,N,S:."/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="Windows NT 4" os_class="Windows" os_url="http://www.microsoft.com" os_icon="win.gif" comments="" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="8760:128:1:44:M1460:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="8820:128:1:44:M1460:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="8576:128:1:44:M1460:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="8215:128:1:44:M1460:A"/>
+			 <test weight="5" type="exact" flag="S" tcpsig="8192:128:1:44:M1460:."/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="Windows CE" os_class="Windows" os_url="http://www.microsoft.com" os_icon="win.gif" comments="" author="xnih@cableone.net" lastmodified="September 22, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="S" tcpsig="32768:32:1:44:M1460:."/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="Windows ME" os_class="Windows" os_url="http://www.microsoft.com" os_icon="win.gif" comments="" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="6" type="exact" flag="SA" tcpsig="17640:128:1:48:M1460,N,N,S:A"/>
+			 <test weight="5" type="exact" flag="S" tcpsig="16384:128:1:48:M1460,N,N,S:."/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="Windows 98" os_class="Windows" os_url="http://www.microsoft.com" os_icon="win.gif" comments="" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="17520:128:1:52:M1460,N,W0,N,N,S:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="8820:128:1:48:M1460,N,N,S:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="8760:128:1:44:M1460:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="8760:128:1:48:M1460,N,N,S:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="8576:128:1:44:M1460:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="8215:128:1:44:M1460:A"/>
+			 <test weight="5" type="exact" flag="S" tcpsig="8192:128:1:44:M1460:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="8192:128:1:48:M1460,N,N,S:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="8192:128:1:48:M1460,N,N,S:Z"/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="Windows 95" os_class="Windows" os_url="http://www.microsoft.com" os_icon="win.gif" comments="" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="8820:32:1:44:M1460:A"/>
+			 <test weight="5" type="exact" flag="S" tcpsig="8192:32:1:44:M1460:."/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="Solaris" os_class="Solaris" os_url="" os_icon="solaris.gif" comments="" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="9660:255:1:48:N,N,S,M1380:A"/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="OpenBSD 2.6 - 2.9" os_class="OpenBSD" os_url="" os_icon="openbsd.gif" comments="" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="17520:64:0:44:M1460:A"/>
+			 <test weight="5" type="partial" flag="SA" tcpsig="17376:64:*:64:M1460,N,N,S,N,W0,N,N,T:AT"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="17232:64:0:48:M1460,N,N,S:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="16445:64:0:60:M1460,N,W0,N,N,T:AT"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="16384:64:0:44:M1460:A"/>
+			 <test weight="5" type="exact" flag="S" tcpsig="17520:64:0:64:M1460,N,N,S,N,W0,N,N,T:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="17376:64:0:64:M1448,N,N,S,N,W0,N,N,T:."/>
+			 <test weight="5" type="partial" flag="S" tcpsig="16384:64:*:64:M1460,N,N,S,N,W0,N,N,T:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="16384:64:0:64:M512,N,N,S,N,W0,N,N,T:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="4096:60:0:60:W10,N,M265,T,E:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="3072:60:0:60:W10,N,M265,T,E:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="2048:60:0:60:W10,N,M265,T,E:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="1024:60:0:60:W10,N,M265,T,E:."/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="OpenBSD 3.8" os_class="OpenBSD" os_url="" os_icon="openbsd.gif" comments="" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="16384:64:1:48:M1460,N,N,S:A"/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="FreeBSD" os_class="FreeBSD" os_url="" os_icon="freebsd.gif" comments="unknown version" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="57344:64:1:60:M1460,N,W0,N,N,T:AT"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="57344:64:1:44:M1460:A"/>
+			 <test weight="5" type="exact" flag="S" tcpsig="65535:64:1:60:M1460,N,W1,N,N,T:Z"/>
+			 <test weight="5" type="exact" flag="S" tcpsig="65535:64:1:60:M1460,N,W1,N,N,T:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="65535:64:1:44:M1460:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="57344:64:1:60:M1460,N,W0,N,N,T:."/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="FreeBSD 3.4" os_class="FreeBSD" os_url="" os_icon="freebsd.gif" comments="" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="17520:64:1:44:M1460:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="16430:64:1:44:M1460:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="16384:64:1:44:M1460:A"/>
+			 <test weight="5" type="exact" flag="S" tcpsig="17520:64:1:44:M1460:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="16992:64:1:44:M1460:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="16384:64:1:44:M1460:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="16384:64:1:44:M1460:Z"/>
+			 <test weight="5" type="exact" flag="S" tcpsig="3072:60:0:60:W10,N,M265,T,E:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="2048:60:0:60:W10,N,M265,T,E:."/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="FreeBSD 4.2 thru 4" os_class="FreeBSD" os_url="" os_icon="freebsd.gif" comments="" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="65535:60:1:44:M1460:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="65535:64:1:44:M1460:A"/>
+			 <test weight="5" type="exact" flag="S" tcpsig="17520:64:1:44:M1460:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="16384:64:1:44:M1460:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="4096:60:0:60:W10,N,M265,T,E:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="2048:60:0:60:W10,N,M265,T,E:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="1024:60:0:60:W10,N,M265,T,E:."/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="Debian 3.1" os_class="Linux" os_url="" os_icon="linux.gif" comments="" author="xnih@cableone.net" lastmodified="August 7, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="S" tcpsig="5840:64:1:60:M1460,S,T,N,W0:."/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="PCLinux" os_class="Linux" os_url="" os_icon="linux.gif" comments="S from 2007" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="5840:64:1:48:M1460,N,N,S:ZA"/>
+			 <test weight="5" type="exact" flag="S" tcpsig="5840:64:1:56:M1460,S,T:."/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="PC-BSD 1.2 thru 1.5" os_class="FreeBSD" os_url="" os_icon="linux.gif" comments="" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="65535:64:1:48:M1460,S,E:A"/>
+			 <test weight="5" type="exact" flag="S" tcpsig="65535:64:1:64:M1460,N,W1,N,N,T,S,E:."/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="Linux 2.2.x" os_class="Linux" os_url="" comments="" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="32696:64:1:44:M536:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="32595:64:1:60:M265,N,N,T,N,W0:AT"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="32568:64:1:44:M1416:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="32256:64:1:48:M512,N,W0:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="32120:64:1:48:M1460,N,N,S:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="32120:64:1:48:M1460,N,W0:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="32120:64:1:60:M1460,S,T,N,W0:AT"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="31500:64:1:48:M1260,N,N,S:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="16165:64:1:60:M265,N,N,T,N,W0:AT"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="16080:64:1:44:M536:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="16060:64:1:60:M1460,S,T,N,W0:AT"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="16060:64:1:60:M1460,N,N,T,N,W0:AT"/>
+			 <test weight="5" type="exact" flag="S" tcpsig="32767:64:1:60:M1460,S,T,N,W0:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="32120:64:1:60:M1460,S,T,N,W0:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="32120:64:1:60:M1460,S,T,N,W0:Z"/>
+			 <test weight="5" type="exact" flag="S" tcpsig="32120:64:1:52:M1460,N,N,S,N,W0:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="32120:60:1:60:M1460,S,T,N,W0:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="16060:64:1:60:M1460,S,T,N,W0:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="5840:64:1:60:M1460,S,T,N,W0:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="4096:60:0:60:W10,N,M265,T,E:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="3072:60:0:60:W10,N,M265,T,E:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="2048:60:0:60:W10,N,M265,T,E:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="1024:60:0:60:W10,N,M265,T,E:."/>
+		 </tests>
+	 </fingerprint>
+	 <fingerprint os="Linux 2.4.x" os_class="Linux" os_url="" os_icon="linux.gif" comments="" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="31856:64:1:60:M1460,S,T,N,W0:ZAT"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="16060:64:1:60:M1460,S,T,N,W0:AT"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="5840:64:1:52:M1460,N,N,S,N,W0:ZA"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="5840:64:1:48:M1460,N,N,S:ZA"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="5840:64:1:44:M1460:ZA"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="5840:60:1:48:M1460,N,N,S:ZA"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="5840:60:1:48:M1380,N,N,S:ZA"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="5792:64:1:60:M1460,N,N,T,N,W0:ZAT"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="5792:64:1:60:M1460,S,T,N,W0:ZAT"/>
+			 <test weight="5" type="exact" flag="S" tcpsig="31856:64:1:60:M1460,S,T,N,W0:Z"/>
+			 <test weight="5" type="exact" flag="S" tcpsig="31856:64:1:60:M1460,S,T,N,W0:ZT"/>
+			 <test weight="5" type="exact" flag="S" tcpsig="16060:64:1:60:M1460,S,T,N,W0:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="5840:64:1:60:M1460,E:Z"/>
+			 <test weight="5" type="exact" flag="S" tcpsig="5840:64:1:52:M1460,N,N,S,N,W0:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="5840:64:1:60:M1460,S,T,N,W1:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="5840:64:1:60:M1460,S,T,N,W0:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="5840:64:1:60:M1460,S,T,N,W0:Z"/>
+			 <test weight="5" type="exact" flag="S" tcpsig="3072:60:0:60:W10,N,M265,T,E:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="1024:60:0:60:W10,N,M265,T,E:."/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="Linux 2.6.x" os_class="Linux" os_url="" os_icon="linux.gif" comments="" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="5840:64:1:48:M1460,N,N,S:ZA"/>
+			 <test weight="5" type="exact" flag="S" tcpsig="5840:64:1:60:M1460,S,T,N,W0:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="5840:64:1:60:M1460,S,T,N,W1:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="5840:64:1:60:M1460,S,T,N,W2:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="5840:64:1:60:M1460,S,T,N,W3:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="5840:64:1:60:M1460,S,T,N,W4:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="5840:64:1:60:M1460,S,T,N,W7:."/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="ESX 2.x" os_class="Vmware" os_url="http://www.vmware.com" os_icon="esx.gif" comments="may just be generic linux fingerprint, not esx, need more tests" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="5840:64:1:48:M1460,N,N,S:A"/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="ESX 3.0" os_class="Vmware" os_url="http://www.vmware.com" os_icon="esx.gif" comments="may just be generic linux fingerprint, not esx, need more tests" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="5840:64:1:48:M1460,N,N,S:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="65535:64:1:44:M1460:A"/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="ESX 3.5" os_class="Vmware" os_url="http://www.vmware.com" os_icon="esx.gif" comments="may just be generic linux fingerprint, not esx, need more tests" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="5840:64:1:52:M1460,N,N,S,N,W0:ZA"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="65535:64:1:48:M1460,N,W1:ZA"/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="Linux RedHat Ent 3.0" os_class="Linux" os_url="http://www.linux.org" os_icon="linux.gif" comments="" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="5840:64:1:48:M1460,N,N,S:A"/>
+			 <test weight="5" type="exact" flag="S" tcpsig="5840:64:1:60:M1460,S,T,N,W0:."/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="SunOS 5.6" os_class="SunOS" os_url="" os_icon="" comments="" author="xnih@cableone.net" lastmodified="September 24, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="S" tcpsig="24820:64:1:48:N,N,S,M1460:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="8760:255:1:44:M1460:."/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="Novell Netware 6.5" os_class="Netware" os_url="http://www.novell.com" os_icon="novell.gif" comments="" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="6144:128:1:48:M1460,S,N,N:A"/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="Novell Netware" os_class="Netware" os_url="http://www.novell.com" os_icon="novell.gif" comments="" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="6144:128:1:48:M1460,S,N,N:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="6143:128:1:48:M1460,S,N,N:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="1260:128:1:48:M1260,S,N,N:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="6143:128:1:48:M1460,W0,N:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="6143:128:1:44:M1460:A"/>
+			 <test weight="5" type="partial" flag="S" tcpsig="6144:128:1:52:M1460,W*,N,S,N,N:."/>
+			 <test weight="5" type="partial" flag="S" tcpsig="6143:128:1:52:M1460,W*,N,S,N,N:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="6144:128:1:48:M1460,W0,N:."/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="Macintosh 9.x" os_class="apple" os_url="http://www.apple.com" os_icon="apple.gif" comments="" author="xnih@cableone.net" lastmodified="September 23, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="S" tcpsig="32768:255:1:48:M1460,W0,N:."/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="Macintosh 10.x" os_class="apple" os_url="http://www.apple.com" os_icon="apple.gif" comments="" author="xnih@cableone.net" lastmodified="September 25, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="S" tcpsig="65535:64:1:60:M1460,N,W2,N,N,T:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="65535:64:1:60:M1460,N,W1,N,N,T:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="65535:64:1:60:M1460,N,W0,N,N,T:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="65535:64:1:60:M1452,N,W0,N,N,T:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="65535:64:1:44:M1460:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="32768:64:1:60:M1460,N,W0,N,N,T:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="32768:64:1:44:M1460:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="10000:64:1:60:M1460,N,W0,N,N,T:."/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="AIX 5.2" os_class="AIX" os_url="" os_icon="" comments="" author="xnih@cableone.net" lastmodified="August 3, 2006">
+		 <tests>
+			 <test weight="5" type="partial" flag="S" tcpsig="65535:60:*:44:M1380:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="16384:60:1:44:M1380:."/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="Netgear WGR614v6 WAP" os_class="netgear" os_url="http://www.netgear.com" comments="" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="7" type="exact" flag="SA" tcpsig="8192:64:0:44:M1460:A"/>
+			 <test weight="7" type="exact" flag="S" tcpsig="8192:64:0:60:M1460,N,W0,N,N,T:."/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="Netgear FVS114" os_class="netgear" os_url="http://www.netgear.com" comments="" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="7" type="exact" flag="SA" tcpsig="3072:64:0:44:M1240:A"/>
+		 </tests>
+	  </fingerprint>
+  	 <fingerprint os="Cisco IP Phone" os_class="IPPhone" os_url="http://www.cisco.com" os_icon="cisco.gif" comments="" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="65535:128:0:44:M1460:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="65535:128:0:48:M1460,N,N,S:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="17520:128:1:52:M1460,N,W0,N,N,S:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="1400:64:0:44:M1400:A"/>
+			 <test weight="5" type="exact" flag="S" tcpsig="65535:128:0:48:M1460,N,N,S:."/>
+			 <test weight="5" type="exact" flag="S" tcpsig="1400:64:0:44:M1400:."/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="Linksys PAP2" os_class="VOIP" os_url="" os_icon="" comments="" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="16000:255:0:44:M1460:A"/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="Sunrocket Gizmo" os_class="VOIP" os_url="" os_icon="" comments="" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="16000:64:0:44:M1452:A"/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="Richo Printer" os_class="Printer" os_url="http://www.richo.com" os_icon="printer.gif" comments="" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="16384:255:0:48:M1460,N,W0:A"/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="HP JetDirect" os_class="Printer" os_url="http://www.hp.com" os_icon="printer.gif" comments="LaserJet 4250" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+                         <test weight="5" type="exact" flag="SA" tcpsig="8760:64:0:52:M1460,N,W0,N,N,S:A"/>
+			 <test weight="5" type="exact" flag="SA" tcpsig="5840:64:0:44:M1460:A"/>
+                         <test weight="5" type="exact" flag="SA" tcpsig="1460:64:0:44:M1460:A"/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="Minolta Printer" os_class="Printer" os_url="" os_icon="printer.gif" comments="" author="Thierry@Zoller.lu" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="16384:64:1:48:M1460,N,W0:A"/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="Brother MFC 7820N" os_class="Printer" os_url="" os_icon="printer.gif" comments="" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="4096:60:0:44:M1260:A"/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="Linksys Router WRT54GL" os_class="Router" os_url="" os_icon="" comments="" author="Thierry@Zoller.lu" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="5840:64:1:52:M1460,N,N,S,N,W0:A"/>
+		 </tests>
+	  </fingerprint>
+	 <fingerprint os="BigIP Load Balancer" os_class="Load Balancer" os_url="" os_icon="" comments="" author="xnih@cableone.net" lastmodified="October 20, 2008">
+		 <tests>
+			 <test weight="5" type="exact" flag="SA" tcpsig="3780:255:1:48:M1380,S,E:A"/>
+		 </tests>
+	  </fingerprint>
+	</fingerprints>
+</TCP>
